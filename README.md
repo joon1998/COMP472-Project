@@ -1,25 +1,36 @@
-# COMP472-Project
+# COMP-472 Project
 This repository contains the implementation of 4 machine learning models: Naive Bayes, decision tree, multi-layer perceptron (MLP), and convolutional neural network (CNN).
 
 |Name|Student ID|
-|:--:|:--------:|
-|||
-|||
-|Laurenz Gomez|40247966|
+|----|:--------:|
 |Oren Argot|40224072|
 |Seungjoon Lee|40106614|
+|Laurenz Gomez|40247966|
 
-## Project Description
-In this project, your task is to perform image classification on the CIFAR-10 dataset using some of the AI models learned in this class.
+All students are in section NN.
 
-You will first analyze the CIFAR-10 dataset, and pre-process the images.
-You will then build four AI models, Naive Bayes, a decision tree, a multi-layer perception, and a convolutional neural network (CNN) using Python and Pytorch to detect the 10 object classes in the CIFAR-10 dataset.
-You will then apply basic evaluation metrics: accuracy, confusion matrix, precision, and recall.
+## Instructions
+All of the implementation is in the `Code/COMP_472_Project.ipynb` file.
+Normally, you need to install Jupyter to run this file, but we worked on a Google Colab notebook, which avoids installation complications.
 
-Why these tasks matter: Your pathway to AI Mastery By undertaking this project, you’re immersing yourself in the world of different traditional and modern AI models that have applications in autonomous vehicles to medical imaging.
-Mastering image classification with Python and PyTorch is not just an academic exercise; it reflects the real-world demands of industries in pursuit of cutting-edge AI solutions.
+1. Download the `COMP_472_Project.ipynb` file.
+2. Go to the [Google Colab welcome page](https://colab.research.google.com/). Within the widget, select the **Upload** tab.
+3. Select the **Browse** button and search for the downloaded jupyter file.
+    > Note: you can also drag and drop the file into the widget.
+4. When your new Colab notebook is loaded, click on the **Run All** button at the top left of the window.
 
-The tasks you engage with, from designing custom AI model architectures to conducting thorough evaluations, echo the challenges faced by AI professionals deploying solutions in ever-changing real-world settings, such as object detection in autonomous vehicles, obstacle avoidance in robotics, etc.
-Navigating through this project, understand that each skill and insight you acquire not only deepens your understanding but also strategically positions you for future discussions and initiatives in the rapidly evolving AI landscape.
+Google Colab will run the `COMP_472_Project.ipynb` file, which includes setting up the dataset, training and testing the models.
+Running the file will save the models in the `content` folder, which can be found in the **Files** tab in the left vertical navbar.
+All models can be found in this repository in the `Models` folder.
+
+## Layout of `COMP_472_Project.ipynb`
+The file will be organized into different sections that correspond to the sections defined in the project outline (`Project___COMP472___Fall_2024F.pdf`):
+
+2. Dataset Setup
+3. Naive Bayes
+4. Decision Tree
+5. MLP
+6. CNN
+7. Evaluation Table
 
 ![82ba375216733bdce2c71bd24f110a265c1e21e73d0e9c56483ffdca345c67e3](https://github.com/user-attachments/assets/7cd3665b-5869-419c-aead-1b475cb8655d)
